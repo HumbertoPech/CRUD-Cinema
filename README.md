@@ -12,7 +12,7 @@ Corresponde a la entidad Actor, en ella se guardan datos como: nombre, biografí
 Corresponde a la entidad Director de cine, en ella se guardan datos como: nombre, biografía, fecha de nacimiento y país de origen.
 
 
-Las relaciones consisten en:
+__Las relaciones consisten en:
 ### Movie <---> Actor
 Esta relación hace referencia a que, 1 película tienen varios actores y que, 1 actor puede estar en varias películas.
 
