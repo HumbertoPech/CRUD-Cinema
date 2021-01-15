@@ -20,7 +20,7 @@ Esta relación hace referencia a que, 1 película tienen varios actores y que, 1
 Esta relación hace referencia a que, 1 película tienen varios directores de cine y que, 1 director puede dirigir varias películas.
 
 ## Set-Up
-Se deberá renombrar el archivo .env.example por .env y se deberán agregar las credenciales de la base de datos correspondiente (MySQL).
+Se deberá renombrar el archivo .env.example por .env y se deberán agregar las credenciales de acceso a la base de datos correspondiente (MySQL).
 Una vez creado este archivo y teniendo la base de datos en el sistema, se deberá correr el siguiente comando estando en la raíz del proyecto:
 php artisan migrate.
 
