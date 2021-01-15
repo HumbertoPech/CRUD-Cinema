@@ -22,7 +22,7 @@ Esta relación hace referencia a que, 1 película tienen varios directores de ci
 ## Set-Up
 Se deberá renombrar el archivo .env.example por .env y se deberán agregar las credenciales de acceso a la base de datos correspondiente (MySQL).
 Una vez creado este archivo y teniendo la base de datos en el sistema, se deberá correr el siguiente comando estando en la raíz del proyecto:
-php artisan migrate.
+php artisan migrate
 
 También se puede setear manualmente la BD. Siguiendo los paso anteriores hasta antes de correr el comando en la línea de comandos. 
 En este caso se debe importar el SQL: crud_laravel-BD.sql (este archivo se encuentra en la raíz del proyecto) a la base de datos creada.
