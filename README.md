@@ -25,4 +25,4 @@ Una vez creado este archivo y teniendo la base de datos en el sistema, se deber�
 php artisan migrate.
 
 También se puede setear manualmente la BD. Siguiendo los paso anteriores hasta antes de correr el comando en la línea de comandos. 
-En este caso se debe tener importar el SQL: crud_laravel-BD.sql a la base de datos creada.
+En este caso se debe importar el SQL: crud_laravel-BD.sql (este archivo se encuentra en la raíz del proyecto) a la base de datos creada.
