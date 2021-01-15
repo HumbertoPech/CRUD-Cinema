@@ -3,15 +3,16 @@ Se trata de simular unas pocas funcionalidades de un cine, en el que se puedan g
 Este pequeño CRUD contiene lo siguiente siguientes modelos:
 
 ### Movie
-_Correspondiente a la entidad Película, en ella se guardan datos como: nombre, sinopsis, fecha de lanzamiento, país de origen y una imagen de su portada.
+Correspondiente a la entidad Película, en ella se guardan datos como: nombre, sinopsis, fecha de lanzamiento, país de origen y una imagen de su portada.
 
 ### Actor
-_Corresponde a la entidad Actor, en ella se guardan datos como: nombre, biografía, fecha de nacimiento y país de origen.
+Corresponde a la entidad Actor, en ella se guardan datos como: nombre, biografía, fecha de nacimiento y país de origen.
 
 ### FilmDirector
-_Corresponde a la entidad Director de cine, en ella se guardan datos como: nombre, biografía, fecha de nacimiento y país de origen.
+Corresponde a la entidad Director de cine, en ella se guardan datos como: nombre, biografía, fecha de nacimiento y país de origen.
 
-Las relaciones consisten en
+
+Las relaciones consisten en:
 ### Movie <---> Actor
 Esta relación hace referencia a que, 1 película tienen varios actores y que, 1 actor puede estar en varias películas.
 

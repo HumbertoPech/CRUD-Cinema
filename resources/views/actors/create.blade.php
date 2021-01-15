@@ -2,22 +2,29 @@
 @section('title', 'Crear actor')
 @section('extra-js')
 <script>
-    const fileInput = document.querySelector('#file-js input[type=file]');
-    fileInput.onchange = () => {
+  const fileInput = document.querySelector('#file-js input[type=file]');
+  fileInput.onchange = () => {
     if (fileInput.files.length > 0) {
-        const fileName = document.querySelector('#file-js .file-name');
-        fileName.textContent = fileInput.files[0].name;
+      const fileName = document.querySelector('#file-js .file-name');
+      fileName.textContent = fileInput.files[0].name;
     }
-    }
+  }
 
-    flatpickr("#birthdate", {
-        altInput: true,
-        altFormat: "d/F/Y",
-        dateFormat: "Y-m-d",
-        locale: "es",
-    });
-    
-    window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'){e.preventDefault();return false;}}},true);
+  flatpickr("#birthdate", {
+    altInput: true,
+    altFormat: "d/F/Y",
+    dateFormat: "Y-m-d",
+    locale: "es",
+  });
+
+  window.addEventListener('keydown', function(e) {
+    if (e.keyIdentifier == 'U+000A' || e.keyIdentifier == 'Enter' || e.keyCode == 13) {
+      if (e.target.nodeName == 'INPUT') {
+        e.preventDefault();
+        return false;
+      }
+    }
+  }, true);
 </script>
 @endsection
 @section('content')
